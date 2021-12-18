@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Minecraft-Seed:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Minecraft-Seed</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Minecraft-Seed-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Minecraft-Seed:war exploded" />
+    </root>
+  </artifact>
+</component>
